@@ -1,0 +1,34 @@
+{
+  "name": "vue-xueguoxue-share",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/vue-social-share.js",
+  "author": "qiqihaobenben",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiqihaobenben/xgx-share"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo lol",
+    "lint": "vbuild -c vbuild.example.js --eslint",
+    "build": "npm run build:cjs && npm run build:umd",
+    "build:cjs": "vbuild -c vbuild.component.js --format cjs",
+    "build:umd": "vbuild -c vbuild.component.js --format umd",
+    "example": "vbuild -c vbuild.example.js -d",
+    "deploy": "vbuild -c vbuild.example.js && gh-pages -d dist-example",
+    "surge": "vbuild -c vbuild.example.js && surge ./dist-example",
+    "publish": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "vbuild": "^6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "social-share.js": "^1.0.16",
+    "vue-github-badge": "^1.0.0"
+  }
+}
