@@ -1,12 +1,15 @@
 {
   "name": "vue-xueguoxue-share",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/vue-social-share.js",
   "author": "qiqihaobenben",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qiqihaobenben/xgx-share"
+  },
+  "bugs": {
+    "url": "https://github.com/qiqihaobenben/xgx-share/issues"
   },
   "files": [
     "dist"

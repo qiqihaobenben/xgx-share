@@ -4,6 +4,6 @@ module.exports = {
   entry: 'example/index.js',
   dist: 'dist-example',
   html: {
-    title: 'vue-social-share'
+    title: 'vue-xueguoxue-share'
   }
 }

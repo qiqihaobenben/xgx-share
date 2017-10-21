@@ -6,7 +6,7 @@ module.exports = {
   minimize: false,
   sourceMap: false,
   filename: {
-    js: 'vue-social-share.js'
+    js: 'vue-xueguoxue-share.js'
   },
   // this will not copy ./static/** to ./dist/**
   copy: false
